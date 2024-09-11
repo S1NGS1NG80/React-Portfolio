@@ -1,24 +1,31 @@
 .jumbotron {
-    background-color:#22577aff;
-    padding: 20px;
-    border-radius: 10px;
-   
+  background-color: #22577aff;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .btn {
-    background-color: #80ed99ff;
+  background-color: #80ed99ff;
 }
 
+.about-image {
+  width: 10vw;
+  height: auto;
+  border-radius: 20px;
 
-h1, h2 {
-    color: #80ed99ff;
+}
+
+h1,
+h2 {
+  color: #80ed99ff;
 }
 
 .lead {
-    font-size: x-large;
+  font-size: x-large;
 }
 
 p {
-    color: #c7f9ccff;
-    font-size: larger;
+  color: #c7f9ccff;
+  font-size: larger;
+  text-align: left;
 }
