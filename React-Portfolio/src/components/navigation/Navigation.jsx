@@ -5,9 +5,9 @@ const Navigation = ({ currentSection, setCurrentSection }) => {
 
   return (
     <nav>
-      <ul>
+      <ul id='navUL'>
         {sections.map((section) => (
-          <li key={section}>
+          <li key={section} id={section}>
             <button
               className={currentSection === section ? 'active' : ''}
               onClick={() => setCurrentSection(section)}

@@ -5,12 +5,16 @@
   background-color: #38a3a5ff;
 }
 
+#navUL{
+  padding-left: 0px;
+}
+
 nav ul {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-inline-start: -40px;
+
 }
 
 button {
