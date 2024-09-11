@@ -1,0 +1,25 @@
+@font-face {
+  font-family: Elianto;
+  src: url(../../assets/fonts/Elianto-Regular.otf);
+}
+
+.header {
+  color: #22577aff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 7vw;
+  font-family: Elianto;
+  text-decoration: underline overline;
+}
+
+button {
+  border-radius: 10px;
+  color: #80ed99ff;
+}
+
+button.active {
+  color: #22577aff;
+}

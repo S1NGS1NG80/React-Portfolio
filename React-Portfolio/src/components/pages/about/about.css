@@ -1,0 +1,24 @@
+.jumbotron {
+    background-color:#22577aff;
+    padding: 20px;
+    border-radius: 10px;
+   
+}
+
+.btn {
+    background-color: #80ed99ff;
+}
+
+
+h1, h2 {
+    color: #80ed99ff;
+}
+
+.lead {
+    font-size: x-large;
+}
+
+p {
+    color: #c7f9ccff;
+    font-size: larger;
+}
