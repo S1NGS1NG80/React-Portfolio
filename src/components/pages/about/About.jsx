@@ -1,5 +1,6 @@
 import React from "react";
 import "./about.css";
+import profilePic from "../../../assets/images/Seanpic.png"
 
 const About = () => {
   return (
@@ -23,7 +24,7 @@ const About = () => {
           and TRE (Tension Releasing Exercises) classes.
         </p>
         <img
-          src="/src/assets/images/Seanpic.png"
+          src={profilePic}
           alt="profile pic"
           className="about-image"
         />
