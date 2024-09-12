@@ -12,7 +12,7 @@ This is a SPA using React to showcase some work samples, provide a way to contac
 - [Questions](#questions)
 
 ## Installation
-This will be deployed to Netlify.
+https://seanksinger.netlify.app/
 
 ## Usage
 N/A
