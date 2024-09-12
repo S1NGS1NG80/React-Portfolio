@@ -1,4 +1,5 @@
-import React from "react";
+// import React from "react";
+import PropTypes from 'prop-types'; // Import prop-types for validation
 import "./header.css";
 import Navigation from "../navigation/Navigation";
 
@@ -11,4 +12,11 @@ const Header = ({ currentSection, setCurrentSection }) => {
     );
   };
   
+// Prop validation
+Header.propTypes = {
+  currentSection: PropTypes.string.isRequired, // currentSection must be a string and is required
+  setCurrentSection: PropTypes.func.isRequired, // setCurrentSection must be a function and is required
+};
+
+
 export default Header;

@@ -1,8 +1,8 @@
 import React from "react";
 import Project from "./Project";
 
-import stockUpIcon from "../../../src/assets/images/stockup.png";
-import travelIcon from "../../../src/assets/images/4travel.png";
+import stockUpIcon from "../../assets/images/stockup.png";
+import travelIcon from "../../assets/images/4travel.png";
 
 const Portfolio = () => {
   const projects = [

@@ -1,9 +1,8 @@
-import React, {  useRef } from "react";
+import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import "../contact/contact.css";
+import "./contact.css";
 
 const Contact = () => {
-
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
@@ -30,7 +29,7 @@ const Contact = () => {
         <label>Email</label>
         <input type="email" name="user_email" placeholder="Enter email" />
         <label>Message</label>
-        <textarea name="message" placeholder="Enter message"/>
+        <textarea name="message" placeholder="Enter message" />
         <input type="submit" value="Send" />
       </form>
     </section>

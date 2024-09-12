@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 const Project = ({ title, deployedLink, repoLink, icon }) => {
   return (
@@ -13,6 +14,14 @@ const Project = ({ title, deployedLink, repoLink, icon }) => {
       </a>
     </div>
   );
+};
+
+// Prop validation
+Project.propTypes = {
+  title: PropTypes.string.isRequired, // title must be a string and is required
+  deployedLink: PropTypes.string.isRequired, // deployedLink must be a string and is required
+  repoLink: PropTypes.string.isRequired, // repoLink must be a string and is required
+  icon: PropTypes.string.isRequired, // icon must be a string (URL or file path) and is required
 };
 
 export default Project;
