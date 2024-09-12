@@ -23,7 +23,7 @@ const About = () => {
           and TRE (Tension Releasing Exercises) classes.
         </p>
         <img
-          src="/src/assets/images/Seanpic.jpeg"
+          src="/src/assets/images/Seanpic.png"
           alt="profile pic"
           className="about-image"
         />
